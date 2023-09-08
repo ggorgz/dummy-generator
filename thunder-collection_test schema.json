@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "test schema",
-    "dateExported": "2023-09-08T22:37:17.505Z",
+    "dateExported": "2023-09-08T22:55:52.852Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -10,11 +10,11 @@
             "colId": "f2f20c23-f689-466c-9152-2940d24376ca",
             "containerId": "",
             "name": "do_prop",
-            "url": "https://faas-sgp1-18bc02ac.doserverless.co/api/v1/web/fn-2a0d3326-4878-4bd4-bf4f-3f9bd8b280b4/bot/build",
+            "url": "https://faas-sgp1-18bc02ac.doserverless.co/api/v1/web/fn-2a0d3326-4878-4bd4-bf4f-3f9bd8b280b4/bot/builder",
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-09-08T22:37:01.260Z",
-            "modified": "2023-09-08T22:37:01.260Z",
+            "modified": "2023-09-08T22:55:39.474Z",
             "headers": [
                 {
                     "name": "X-Require-Whisk-Auth",
@@ -24,7 +24,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"schema\": {\r\n        \"properties\": {\r\n            \"id\": {\r\n                \"description\": \"The unique id of the user\",\r\n                \"title\": \"Id\",\r\n                \"type\": \"int\"\r\n            },\r\n            \"username\": {\r\n                \"description\": \"The username of the user\",\r\n                \"title\": \"Username\",\r\n                \"type\": \"user_name\"\r\n            },\r\n            \"email\": {\r\n                \"description\": \"The email of the user\",\r\n                \"title\": \"Email\",\r\n                \"type\": \"ascii_company_email\"\r\n            },\r\n            \"created_at\": {\r\n                \"description\": \"The date and time the user was created\",\r\n                \"format\": \"date-time\",\r\n                \"title\": \"Created At\",\r\n                \"type\": \"unix_time\"\r\n            },\r\n            \"updated_at\": {\r\n                \"description\": \"The date and time the user was last updated\",\r\n                \"format\": \"date-time\",\r\n                \"title\": \"Updated At\",\r\n                \"type\": \"unix_time\"\r\n            }\r\n        },\r\n        \"required\": [\r\n            \"id\",\r\n            \"username\",\r\n            \"email\",\r\n            \"created_at\",\r\n            \"updated_at\"\r\n        ],\r\n        \"title\": \"User\",\r\n        \"type\": \"object\"\r\n    }\r\n}",
+                "raw": "{\n    \"schema\": {\n        \"properties\": {\n            \"id\": {\n                \"description\": \"The unique id of the user\",\n                \"title\": \"Id\",\n                \"type\": \"int\"\n            },\n            \"username\": {\n                \"description\": \"The username of the user\",\n                \"title\": \"Username\",\n                \"type\": \"user_name\"\n            },\n            \"email\": {\n                \"description\": \"The email of the user\",\n                \"title\": \"Email\",\n                \"type\": \"ascii_company_email\"\n            },\n            \"created_at\": {\n                \"description\": \"The date and time the user was created\",\n                \"format\": \"date-time\",\n                \"title\": \"Created At\",\n                \"type\": \"unix_time\"\n            },\n            \"updated_at\": {\n                \"description\": \"The date and time the user was last updated\",\n                \"format\": \"date-time\",\n                \"title\": \"Updated At\",\n                \"type\": \"unix_time\"\n            }\n        },\n        \"required\": [\n            \"id\",\n            \"username\",\n            \"email\",\n            \"created_at\",\n            \"updated_at\"\n        ],\n        \"title\": \"User\",\n        \"type\": \"object\"\n    }\n}",
                 "form": []
             },
             "tests": []

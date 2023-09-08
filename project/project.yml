@@ -1,6 +1,6 @@
 packages:
   - name: bot
     functions:
-      - name: build
+      - name: builder
         runtime: python:3.11
         web: true
