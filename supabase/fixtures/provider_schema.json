@@ -1,0 +1,2524 @@
+{
+    "faker_collection": [
+        {
+            "function_name": "aba",
+            "description": "Generates a random ABA (American Bankers Association) number.",
+            "short_name": "ABA Number",
+            "short_code": "ABA",
+            "is_function": true,
+            "uuid": "f73243d5-4c91-4ee3-839e-c8b29bdd8a19"
+        },
+        {
+            "function_name": "add_provider",
+            "description": "Adds a new provider to the faker generator.",
+            "short_name": "Add Provider",
+            "short_code": "ADDPROVIDER",
+            "is_function": true,
+            "uuid": "e7cf32cd-5fb3-4b02-9fb0-17e3e94bed65"
+        },
+        {
+            "function_name": "address",
+            "description": "Generates a random full address.",
+            "short_name": "Address",
+            "short_code": "ADDR",
+            "is_function": true,
+            "uuid": "94c1a9fb-4781-41be-a86d-fab3efae2438"
+        },
+        {
+            "function_name": "administrative_unit",
+            "description": "Generates a random administrative unit.",
+            "short_name": "Administrative Unit",
+            "short_code": "ADMINUNIT",
+            "is_function": true,
+            "uuid": "a1456cda-969f-4a1d-961d-ceb216be808f"
+        },
+        {
+            "function_name": "am_pm",
+            "description": "Generates either 'AM' or 'PM'.",
+            "short_name": "AM or PM",
+            "short_code": "AMPM",
+            "is_function": true,
+            "uuid": "253eea90-1a26-40b8-96f4-473fea294a75"
+        },
+        {
+            "function_name": "android_platform_token",
+            "description": "Generates a random Android platform token.",
+            "short_name": "Android Platform Token",
+            "short_code": "ANDROIDTOKEN",
+            "is_function": true,
+            "uuid": "35a76aa4-4a90-43a4-be46-0996a0ff8c4a"
+        },
+        {
+            "function_name": "ascii_company_email",
+            "description": "Generates a random ASCII company email address.",
+            "short_name": "ASCII Company Email",
+            "short_code": "ASCIIEMAILCOM",
+            "is_function": true,
+            "uuid": "3c92fba7-91f9-4579-8447-5571f74e70c8"
+        },
+        {
+            "function_name": "ascii_email",
+            "description": "Generates a random ASCII email address.",
+            "short_name": "ASCII Email",
+            "short_code": "ASCIIEMAIL",
+            "is_function": true,
+            "uuid": "3fd5bb8d-ab94-45e0-8366-b30a156cc009"
+        },
+        {
+            "function_name": "ascii_free_email",
+            "description": "Generates a random ASCII free email address.",
+            "short_name": "ASCII Free Email",
+            "short_code": "ASCIIFREEEMAIL",
+            "is_function": true,
+            "uuid": "2e21ae22-24d9-49b1-bc22-fc73f9f8e094"
+        },
+        {
+            "function_name": "ascii_safe_email",
+            "description": "Generates a random ASCII safe email address.",
+            "short_name": "ASCII Safe Email",
+            "short_code": "ASCIISAFEEMAIL",
+            "is_function": true,
+            "uuid": "f1d6bf3b-18aa-4898-a74c-08d7edd23f47"
+        },
+        {
+            "function_name": "bank_country",
+            "description": "Generates a random bank country.",
+            "short_name": "Bank Country",
+            "short_code": "BANKCOUNTRY",
+            "is_function": true,
+            "uuid": "296624af-21e6-457e-b9c6-fbd5444ce962"
+        },
+        {
+            "function_name": "basic_phone_number",
+            "description": "Generates a random basic phone number.",
+            "short_name": "Basic Phone Number",
+            "short_code": "BASICPHONENUM",
+            "is_function": true,
+            "uuid": "3a7fb0eb-7fce-4702-a005-5e3d4bff02fd"
+        },
+        {
+            "function_name": "bban",
+            "description": "Generates a random BBAN (Basic Bank Account Number).",
+            "short_name": "BBAN",
+            "short_code": "BBAN",
+            "is_function": true,
+            "uuid": "d84dcb67-34d5-47ec-9069-bea33a056bc5"
+        },
+        {
+            "function_name": "binary",
+            "description": "Generates a random binary string.",
+            "short_name": "Binary String",
+            "short_code": "BINARY",
+            "is_function": true,
+            "uuid": "dd1e55ba-38d4-4f28-b7b8-36376c3df98a"
+        },
+        {
+            "function_name": "boolean",
+            "description": "Generates a random boolean value.",
+            "short_name": "Boolean Value",
+            "short_code": "BOOL",
+            "is_function": true,
+            "uuid": "b8d0a306-917a-4034-ba63-1a7f8fba53f3"
+        },
+        {
+            "function_name": "bothify",
+            "description": "Generates a random string consisting of letters and digits.",
+            "short_name": "Alphanumeric String",
+            "short_code": "BOTHIFY",
+            "is_function": true,
+            "uuid": "1f35253b-841e-4d8d-9b35-b6c1df918bc3"
+        },
+        {
+            "function_name": "bs",
+            "description": "Generates a random 'buzzword' string.",
+            "short_name": "Buzzword String",
+            "short_code": "BS",
+            "is_function": true,
+            "uuid": "140eab41-054f-4eb6-a598-d17abcc182a0"
+        },
+        {
+            "function_name": "building_number",
+            "description": "Generates a random building number.",
+            "short_name": "Building Number",
+            "short_code": "BUILDNUM",
+            "is_function": true,
+            "uuid": "19eb1c57-7059-4683-893b-bdfe13d2a315"
+        },
+        {
+            "function_name": "catch_phrase",
+            "description": "Generates a random catch phrase.",
+            "short_name": "Catch Phrase",
+            "short_code": "CATCHPHRASE",
+            "is_function": true,
+            "uuid": "70e8bf6f-f7ed-42dc-9d65-fd9fd2b47efb"
+        },
+        {
+            "function_name": "century",
+            "description": "Generates a random century.",
+            "short_name": "Century",
+            "short_code": "CENTURY",
+            "is_function": true,
+            "uuid": "f02ac16a-e900-430b-97da-bd4277e2c1b9"
+        },
+        {
+            "function_name": "chrome",
+            "description": "Generates a random Google Chrome user agent string.",
+            "short_name": "Chrome User Agent",
+            "short_code": "CHROMEUA",
+            "is_function": true,
+            "uuid": "057a3fbb-3daf-4af8-8641-6515d1f78420"
+        },
+        {
+            "function_name": "city",
+            "description": "Generates a random city name.",
+            "short_name": "City Name",
+            "short_code": "CITY",
+            "is_function": true,
+            "uuid": "67a3dc3c-e6a1-439b-97a7-3aff83405c55"
+        },
+        {
+            "function_name": "city_prefix",
+            "description": "Generates a random city prefix.",
+            "short_name": "City Prefix",
+            "short_code": "CITYPREFIX",
+            "is_function": true,
+            "uuid": "1e6a6c3c-033e-41f1-9db2-35969266e957"
+        },
+        {
+            "function_name": "city_suffix",
+            "description": "Generates a random city suffix.",
+            "short_name": "City Suffix",
+            "short_code": "CITYSUFFIX",
+            "is_function": true,
+            "uuid": "cb137682-79ef-4e96-8bb5-ae8f6de4d398"
+        },
+        {
+            "function_name": "color",
+            "description": "Generates a random color.",
+            "short_name": "Color",
+            "short_code": "COLOR",
+            "is_function": true,
+            "uuid": "72c03532-052f-4e0a-a8a6-0266de9d55ff"
+        },
+        {
+            "function_name": "color_name",
+            "description": "Generates a random color name.",
+            "short_name": "Color Name",
+            "short_code": "COLORNAME",
+            "is_function": true,
+            "uuid": "f72e2e7c-d2ac-42fb-8976-6dec8b51107e"
+        },
+        {
+            "function_name": "company",
+            "description": "Generates a random company name.",
+            "short_name": "Company Name",
+            "short_code": "COMPANY",
+            "is_function": true,
+            "uuid": "5dee1e62-4b66-4167-bd67-81708afdafd5"
+        },
+        {
+            "function_name": "company_email",
+            "description": "Generates a random company email address.",
+            "short_name": "Company Email",
+            "short_code": "COMPANYEMAIL",
+            "is_function": true,
+            "uuid": "3fc29e4e-1eb1-42ee-8bcd-4b7d4c2607ef"
+        },
+        {
+            "function_name": "company_suffix",
+            "description": "Generates a random company suffix.",
+            "short_name": "Company Suffix",
+            "short_code": "COMPANYSUFFIX",
+            "is_function": true,
+            "uuid": "9109df3e-eed9-4ae4-8bfc-4d8d83ff35f4"
+        },
+        {
+            "function_name": "coordinate",
+            "description": "Generates a random coordinate.",
+            "short_name": "Coordinate",
+            "short_code": "COORD",
+            "is_function": true,
+            "uuid": "a4bf080c-80fb-4722-a365-0b84b3f53ca6"
+        },
+        {
+            "function_name": "country",
+            "description": "Generates a random country name.",
+            "short_name": "Country Name",
+            "short_code": "COUNTRY",
+            "is_function": true,
+            "uuid": "0055dd33-1279-47de-acbb-ffee4d449913"
+        },
+        {
+            "function_name": "country_calling_code",
+            "description": "Generates a random country calling code.",
+            "short_name": "Country Calling Code",
+            "short_code": "CALLCOUNTRYCODE",
+            "is_function": true,
+            "uuid": "91955a69-c22f-487f-959e-9664eaaee8cd"
+        },
+        {
+            "function_name": "country_code",
+            "description": "Generates a random country code.",
+            "short_name": "Country Code",
+            "short_code": "COUNTRYCODE",
+            "is_function": true,
+            "uuid": "4ca57521-1523-4c8e-935c-a911d27fe69f"
+        },
+        {
+            "function_name": "credit_card_provider",
+            "description": "Generates a random credit card provider name.",
+            "short_name": "CCProvider",
+            "short_code": "CCP",
+            "is_function": true,
+            "uuid": "88315d71-ac95-497f-a2e6-a8d76ca49856"
+        },
+        {
+            "function_name": "postcode",
+            "description": "Generates a random postcode.",
+            "short_name": "Postcode",
+            "short_code": "PC",
+            "is_function": true,
+            "uuid": "0dea3b2e-79fa-4ead-a77f-1edf400126ec"
+        },
+        {
+            "function_name": "date_between_dates",
+            "description": "Generates a random date between two given dates.",
+            "short_name": "DateBetween",
+            "short_code": "DB",
+            "is_function": true,
+            "uuid": "826ff3c2-fb56-4c12-8417-b2f01d065014"
+        },
+        {
+            "function_name": "date_this_decade",
+            "description": "Generates a random date in this decade.",
+            "short_name": "DateThisDecade",
+            "short_code": "DATED",
+            "is_function": true,
+            "uuid": "4e90c5aa-0db7-4970-b433-d7b217e4f378"
+        },
+        {
+            "function_name": "postalcode_plus4",
+            "description": "Generates a random postal code with a 4 digit extension.",
+            "short_name": "PostalCodePlus4",
+            "short_code": "PCP4",
+            "is_function": true,
+            "uuid": "f98ebd7f-516e-4da2-9ecc-24474fae9d8c"
+        },
+        {
+            "function_name": "suffix_male",
+            "description": "Generates a random male suffix.",
+            "short_name": "MaleSuffix",
+            "short_code": "NXHA",
+            "is_function": true,
+            "uuid": "997d4aee-29c3-473b-b398-d5d668c818dc"
+        },
+        {
+            "function_name": "machine_year_make_model",
+            "description": "Generates a random machine year, make, and model.",
+            "short_name": "MachineYMM",
+            "short_code": "MYMM",
+            "is_function": true,
+            "uuid": "85621b11-3339-4543-92f8-5f3344a18dd6"
+        },
+        {
+            "function_name": "msisdn",
+            "description": "Generates a random mobile station international subscriber directory number.",
+            "short_name": "MSISDN",
+            "short_code": "MISDN",
+            "is_function": true,
+            "uuid": "355c77bf-4098-4121-9ce9-62c75e220222"
+        },
+        {
+            "function_name": "ein",
+            "description": "Generates a random employer identification number.",
+            "short_name": "EIN",
+            "short_code": "EIN",
+            "is_function": true,
+            "uuid": "9479154f-1846-4fd8-bd94-9d4ef841035b"
+        },
+        {
+            "function_name": "last_name_nonbinary",
+            "description": "Generates a random nonbinary last name.",
+            "short_name": "NonbinaryLastName",
+            "short_code": "NLLN",
+            "is_function": true,
+            "uuid": "cb0e1f43-136c-4a7e-a776-99385ed39b73"
+        },
+        {
+            "function_name": "time_delta",
+            "description": "Generates a random time delta.",
+            "short_name": "TimeDelta",
+            "short_code": "TD",
+            "is_function": true,
+            "uuid": "56e22b4b-804a-4162-a3f9-8379df9d37c0"
+        },
+        {
+            "function_name": "isbn13",
+            "description": "Generates a random 13-digit ISBN.",
+            "short_name": "ISBN13",
+            "short_code": "ISBN13",
+            "is_function": true,
+            "uuid": "c40de20e-d49d-4e8a-b4ae-c22d74cc951d"
+        },
+        {
+            "function_name": "dsv",
+            "description": "Converts a list of lists into a delimiter-separated values string.",
+            "short_name": "DSV",
+            "short_code": "DSV",
+            "is_function": true,
+            "uuid": "8fe6c6f1-203f-4eec-b9f5-8830a8549517"
+        },
+        {
+            "function_name": "date_time_between",
+            "description": "Generates a random datetime between two given datetimes.",
+            "short_name": "DateTimeBetween",
+            "short_code": "DTB",
+            "is_function": true,
+            "uuid": "0e6dbf11-edab-4bae-94ad-52e7675fe05e"
+        },
+        {
+            "function_name": "first_name",
+            "description": "Generates a random first name.",
+            "short_name": "FirstName",
+            "short_code": "FN",
+            "is_function": true,
+            "uuid": "0cc86116-01e5-477e-bf23-1b601b721ef3"
+        },
+        {
+            "function_name": "first_name_female",
+            "description": "Generates a random female first name.",
+            "short_name": "FemaleFirstName",
+            "short_code": "FFN",
+            "is_function": true,
+            "uuid": "b7558b0c-573a-4cbb-8d7c-51ab056519a8"
+        },
+        {
+            "function_name": "emoji",
+            "description": "Generates a random emoji.",
+            "short_name": "Emoji",
+            "short_code": "EJ",
+            "is_function": true,
+            "uuid": "b641ba1f-c555-4d47-8157-a40d94f1e370"
+        },
+        {
+            "function_name": "uuid4",
+            "description": "Generates a random UUID version 4.",
+            "short_name": "UUID4",
+            "short_code": "UUID4",
+            "is_function": true,
+            "uuid": "cc838bd9-97bd-4bd4-8312-e7ea732935ae"
+        },
+        {
+            "function_name": "prefix_nonbinary",
+            "description": "Generates a random nonbinary prefix.",
+            "short_name": "NonbinaryPrefix",
+            "short_code": "NBP",
+            "is_function": true,
+            "uuid": "3952f7a2-f256-4dbe-a4af-08fbf76853ba"
+        },
+        {
+            "function_name": "street_suffix",
+            "description": "Generates a random street suffix.",
+            "short_name": "StreetSuffix",
+            "short_code": "SS",
+            "is_function": true,
+            "uuid": "5919f62e-6e8e-4d22-905f-ce43bd324bc0"
+        },
+        {
+            "function_name": "md5",
+            "description": "Generates a random MD5 hash.",
+            "short_name": "MD5",
+            "short_code": "MD5",
+            "is_function": true,
+            "uuid": "cd7e52bf-9b81-4e43-bd2f-688011c20188"
+        },
+        {
+            "function_name": "secondary_address",
+            "description": "Generates a random secondary address.",
+            "short_name": "SecondaryAddress",
+            "short_code": "SECA",
+            "is_function": true,
+            "uuid": "49d4d51f-ae89-46fb-a4e9-176dfbadbef1"
+        },
+        {
+            "function_name": "dga",
+            "description": "Generates a random domain generation algorithm.",
+            "short_name": "DGA",
+            "short_code": "DGA",
+            "is_function": true,
+            "uuid": "7536e374-13d8-468d-b036-9048ab1a44f3"
+        },
+        {
+            "function_name": "prefix",
+            "description": "Generates a random prefix.",
+            "short_name": "Prefix",
+            "short_code": "PX",
+            "is_function": true,
+            "uuid": "b49b6778-9b59-4f16-9897-8d8e233ae4a5"
+        },
+        {
+            "function_name": "music_instrument",
+            "description": "Generates a random musical instrument.",
+            "short_name": "MusicInstrument",
+            "short_code": "YIZF",
+            "is_function": true,
+            "uuid": "ed6889bb-6d68-42cd-908a-671c1cae8190"
+        },
+        {
+            "function_name": "windows_platform_token",
+            "description": "Generates a random Windows platform token.",
+            "short_name": "WindowsToken",
+            "short_code": "WT",
+            "is_function": true,
+            "uuid": "a6abad33-91e7-4e8b-bcf6-5b56302af1b2"
+        },
+        {
+            "function_name": "uri_path",
+            "description": "Generates a random URI path.",
+            "short_name": "URIPath",
+            "short_code": "URIPATH",
+            "is_function": true,
+            "uuid": "56ec111d-3cea-4894-a7d9-eb104788931b"
+        },
+        {
+            "function_name": "music_genre_object",
+            "description": "Generates a random music genre object.",
+            "short_name": "MusicGenreObj",
+            "short_code": "MGO",
+            "is_function": true,
+            "uuid": "fd5e1f14-e41c-456f-af3b-a4a9166ef982"
+        },
+        {
+            "function_name": "cryptocurrency_name",
+            "description": "Generates a random cryptocurrency name.",
+            "short_name": "CryptoName",
+            "short_code": "CN",
+            "is_function": true,
+            "uuid": "36303bea-ebf4-4533-ad51-e5df2ad50bcb"
+        },
+        {
+            "function_name": "tld",
+            "description": "Generates a random top-level domain.",
+            "short_name": "TLD",
+            "short_code": "TLD",
+            "is_function": true,
+            "uuid": "a8f38582-625b-4efe-8e78-61de2fa93830"
+        },
+        {
+            "function_name": "vehicle_make",
+            "description": "Generates a random vehicle make.",
+            "short_name": "VehicleMake",
+            "short_code": "VMAKE",
+            "is_function": true,
+            "uuid": "6df165e5-8690-4120-a548-69948e867ec3"
+        },
+        {
+            "function_name": "mime_type",
+            "description": "Generates a random MIME type.",
+            "short_name": "MIMEType",
+            "short_code": "MIME",
+            "is_function": true,
+            "uuid": "7220f4b2-28f1-43e8-9649-c5b4e3107665"
+        },
+        {
+            "function_name": "mac_processor",
+            "description": "Generates a random MAC processor.",
+            "short_name": "MACProcessor",
+            "short_code": "QZQB",
+            "is_function": true,
+            "uuid": "662970d8-471c-402b-a046-40864ce72782"
+        },
+        {
+            "function_name": "date_time_this_month",
+            "description": "Generates a datetime object for a date within this month.",
+            "short_name": "DateTimeThisMonth",
+            "short_code": "DTTM",
+            "is_function": true,
+            "uuid": "addfc72d-3630-4958-bf15-57412ecc5b42"
+        },
+        {
+            "function_name": "vehicle_model",
+            "description": "Generates a string representing a vehicle model.",
+            "short_name": "VehicleModel",
+            "short_code": "VM",
+            "is_function": true,
+            "uuid": "25cbb1f1-a449-404f-8aba-db61b5890321"
+        },
+        {
+            "function_name": "passport_number",
+            "description": "Generates a string representing a passport number.",
+            "short_name": "PassportNumber",
+            "short_code": "PSN",
+            "is_function": true,
+            "uuid": "64c0f17e-ec51-4c5b-8422-079c1c6a612e"
+        },
+        {
+            "function_name": "iana_id",
+            "description": "Generates an IANA identifier.",
+            "short_name": "IANAID",
+            "short_code": "II",
+            "is_function": true,
+            "uuid": "d7e4e7c9-f4fd-45dc-a6aa-69ab68523925"
+        },
+        {
+            "function_name": "get_providers",
+            "description": "Returns a list of all available providers.",
+            "short_name": "GetProviders",
+            "short_code": "GP",
+            "is_function": true,
+            "uuid": "9a59e5a0-a5e5-49c2-9330-cda2eed00972"
+        },
+        {
+            "function_name": "current_country_code",
+            "description": "Generates a string representing the current country code.",
+            "short_name": "CurrentCountryCode",
+            "short_code": "CCC",
+            "is_function": true,
+            "uuid": "8b0b7126-84af-4be2-be21-997990d2502a"
+        },
+        {
+            "function_name": "set_formatter",
+            "description": "Sets the formatter for the Faker instance.",
+            "short_name": "SetFormatter",
+            "short_code": "TJWN",
+            "is_function": true,
+            "uuid": "2aefe8b0-e4e0-4338-b5cb-e9dc1999cbc0"
+        },
+        {
+            "function_name": "passport_owner",
+            "description": "Generates a string representing a passport owner's name.",
+            "short_name": "PassportOwner",
+            "short_code": "PASOWNER",
+            "is_function": true,
+            "uuid": "4780f0bb-6801-42bb-bd4e-387dba2cf9d2"
+        },
+        {
+            "function_name": "port_number",
+            "description": "Generates a random port number.",
+            "short_name": "PortNumber",
+            "short_code": "PORTN",
+            "is_function": true,
+            "uuid": "ffb25228-8877-4cd6-9861-62d013dc6fa6"
+        },
+        {
+            "function_name": "simple_profile",
+            "description": "Generates a simple user profile as a dictionary.",
+            "short_name": "SimpleProfile",
+            "short_code": "SP",
+            "is_function": true,
+            "uuid": "5bad2647-e2bc-4021-92cc-f1d83d861cdf"
+        },
+        {
+            "function_name": "randomize_nb_elements",
+            "description": "Randomly choose the number of elements to generate.",
+            "short_name": "RandomizeNbElements",
+            "short_code": "RNE",
+            "is_function": true,
+            "uuid": "a6f6c405-d8fe-4730-88b0-2739f0f6772e"
+        },
+        {
+            "function_name": "vehicle_category",
+            "description": "Generates a string representing a vehicle category.",
+            "short_name": "VehicleCategory",
+            "short_code": "VC",
+            "is_function": true,
+            "uuid": "4e7d5162-4f04-49d7-8851-a1f27d012751"
+        },
+        {
+            "function_name": "local_latlng",
+            "description": "Generates a tuple representing local latitude and longitude.",
+            "short_name": "LocalLatLong",
+            "short_code": "LLL",
+            "is_function": true,
+            "uuid": "d23b241e-7caf-4c85-82a1-357b69afb838"
+        },
+        {
+            "function_name": "date_time_this_year",
+            "description": "Generates a datetime object for a date within this year.",
+            "short_name": "DateTimeThisYear",
+            "short_code": "DTTY",
+            "is_function": true,
+            "uuid": "d5d9806a-21aa-41b5-a005-18c7ce58e890"
+        },
+        {
+            "function_name": "safe_domain_name",
+            "description": "Generates a safe domain name.",
+            "short_name": "SafeDomainName",
+            "short_code": "SDN",
+            "is_function": true,
+            "uuid": "6218bfb1-d983-46ad-946c-c269218985cb"
+        },
+        {
+            "function_name": "random_number",
+            "description": "Generates a random number.",
+            "short_name": "RandomNumber",
+            "short_code": "RN",
+            "is_function": true,
+            "uuid": "37b3f77f-734e-43fb-bd3d-d60b95e768cf"
+        },
+        {
+            "function_name": "hex_color",
+            "description": "Generates a hex color.",
+            "short_name": "HexColor",
+            "short_code": "JCFL",
+            "is_function": true,
+            "uuid": "15979fd6-e68b-4889-a4d8-34ff70d3c4c7"
+        },
+        {
+            "function_name": "http_method",
+            "description": "Generates a string representing an HTTP method.",
+            "short_name": "HTTPMethod",
+            "short_code": "HM",
+            "is_function": true,
+            "uuid": "98ab7e64-4889-458c-bbe2-a4fc31a7e0b9"
+        },
+        {
+            "function_name": "unix_time",
+            "description": "Generates a string representing Unix time.",
+            "short_name": "UnixTime",
+            "short_code": "UT",
+            "is_function": true,
+            "uuid": "d081323b-58a5-4f41-9be8-a387b8ba5831"
+        },
+        {
+            "function_name": "upc_e",
+            "description": "Generates a string representing a UPC-E barcode.",
+            "short_name": "UPCE",
+            "short_code": "KPTW",
+            "is_function": true,
+            "uuid": "82a8a16e-055a-4f3a-ba99-819b0cd69f48"
+        },
+        {
+            "function_name": "upc_a",
+            "description": "Generates a string representing a UPC-A barcode.",
+            "short_name": "UPCA",
+            "short_code": "UA",
+            "is_function": true,
+            "uuid": "4a090c32-6bcf-43d0-8232-f117b805b351"
+        },
+        {
+            "function_name": "zipcode_plus4",
+            "description": "Generates a string representing a ZIP+4 code.",
+            "short_name": "ZipCodePlus4",
+            "short_code": "ZP4",
+            "is_function": true,
+            "uuid": "9bbeb32a-2878-4aec-9826-3ddb4ad60430"
+        },
+        {
+            "function_name": "ipv4_public",
+            "description": "Generates a string representing a public IPv4 address.",
+            "short_name": "IPv4Public",
+            "short_code": "IP4P",
+            "is_function": true,
+            "uuid": "afa7fc26-67e6-4959-bac1-2c02a19c6588"
+        },
+        {
+            "function_name": "iban",
+            "description": "Generates a string representing an IBAN.",
+            "short_name": "IBAN",
+            "short_code": "KEKA",
+            "is_function": true,
+            "uuid": "b2512ac0-62f8-43d4-8173-2b4358f389b3"
+        },
+        {
+            "function_name": "location_on_land",
+            "description": "Generates a tuple representing a location on land (latitude, longitude).",
+            "short_name": "LocationOnLand",
+            "short_code": "LOL",
+            "is_function": true,
+            "uuid": "a3534b47-b23c-4674-99ad-ed9e63928deb"
+        },
+        {
+            "function_name": "swift",
+            "description": "Generates a string representing a SWIFT code.",
+            "short_name": "SWIFT",
+            "short_code": "SWF",
+            "is_function": true,
+            "uuid": "0a13fc53-de5d-4e2e-b40d-6c27775d471c"
+        },
+        {
+            "function_name": "user_agent",
+            "description": "Generates a string representing a user agent.",
+            "short_name": "UserAgent",
+            "short_code": "AGENT",
+            "is_function": true,
+            "uuid": "fbf12dc8-4d9d-4cc2-adfa-682ad1a5820e"
+        },
+        {
+            "function_name": "paragraphs",
+            "description": "Generates a list of strings representing paragraphs.",
+            "short_name": "Paragraphs",
+            "short_code": "NGZO",
+            "is_function": true,
+            "uuid": "fe962274-f8a8-4485-908d-ef44a58a3ae8"
+        },
+        {
+            "function_name": "invalid_ssn",
+            "description": "Generates a string representing an invalid SSN.",
+            "short_name": "InvalidSSN",
+            "short_code": "ISSN",
+            "is_function": true,
+            "uuid": "f89c3899-cd92-4ecc-a1af-4aca27c5b159"
+        },
+        {
+            "function_name": "machine_make",
+            "description": "Generates a string representing a machine make.",
+            "short_name": "MachineMake",
+            "short_code": "XEAO",
+            "is_function": true,
+            "uuid": "8f124a99-7c4b-4fc4-8115-c40981969452"
+        },
+        {
+            "function_name": "random_lowercase_letter",
+            "description": "Generates a string representing a random lowercase letter.",
+            "short_name": "RandomLowercaseLetter",
+            "short_code": "RLL",
+            "is_function": true,
+            "uuid": "5e612e7f-c948-4ce6-93e5-a1dbd7397877"
+        },
+        {
+            "function_name": "street_name",
+            "description": "Generates a string representing a street name.",
+            "short_name": "StreetName",
+            "short_code": "SN",
+            "is_function": true,
+            "uuid": "98c8ff97-6fb5-45cd-9ed3-822f8047639b"
+        },
+        {
+            "function_name": "pytimezone",
+            "description": "Generates a random Python timezone object.",
+            "short_name": "Python Timezone",
+            "short_code": "PTZ",
+            "is_function": true,
+            "uuid": "1f3ac918-7041-46b2-a34a-9971b3299cce"
+        },
+        {
+            "function_name": "sedol",
+            "description": "Generates a random Stock Exchange Daily Official List number.",
+            "short_name": "SEDOL Number",
+            "short_code": "SEDOL",
+            "is_function": true,
+            "uuid": "05d69292-b48c-4373-965b-02a7aea91d5f"
+        },
+        {
+            "function_name": "safe_color_name",
+            "description": "Generates a random safe color name.",
+            "short_name": "Safe Color",
+            "short_code": "SCN",
+            "is_function": true,
+            "uuid": "e2070bc6-a806-4849-b853-83f993fc8791"
+        },
+        {
+            "function_name": "passport_full",
+            "description": "Generates a random full passport information.",
+            "short_name": "Passport Information",
+            "short_code": "PINFO",
+            "is_function": true,
+            "uuid": "1c269189-3e65-4090-83d7-992ce9457029"
+        },
+        {
+            "function_name": "paragraph",
+            "description": "Generates a random paragraph.",
+            "short_name": "Paragraph",
+            "short_code": "PGRAPH",
+            "is_function": true,
+            "uuid": "3faa8061-7181-4f53-a201-79c45bf984fa"
+        },
+        {
+            "function_name": "free_email",
+            "description": "Generates a random free email address.",
+            "short_name": "Free Email",
+            "short_code": "FE",
+            "is_function": true,
+            "uuid": "d464a297-2610-4643-90d6-bfd77cad9cac"
+        },
+        {
+            "function_name": "passport_dob",
+            "description": "Generates a random passport date of birth.",
+            "short_name": "Passport DOB",
+            "short_code": "PDOB",
+            "is_function": true,
+            "uuid": "2352f76c-7f67-4618-a231-64514846a7db"
+        },
+        {
+            "function_name": "sentences",
+            "description": "Generates random sentences.",
+            "short_name": "Sentences",
+            "short_code": "SENTENCES",
+            "is_function": true,
+            "uuid": "5758f71b-e6a3-4f5b-9635-01c2ccc6c9dc"
+        },
+        {
+            "function_name": "latitude",
+            "description": "Generates a random latitude.",
+            "short_name": "Latitude",
+            "short_code": "LAT",
+            "is_function": true,
+            "uuid": "f839b3f2-eb11-4a0d-9c8b-480b610e1517"
+        },
+        {
+            "function_name": "name_female",
+            "description": "Generates a random female name.",
+            "short_name": "Female Name",
+            "short_code": "FNAME",
+            "is_function": true,
+            "uuid": "2daa2dfa-305c-49df-8692-04d00d29a405"
+        },
+        {
+            "function_name": "month_name",
+            "description": "Generates a random month name.",
+            "short_name": "Month Name",
+            "short_code": "RRXJ",
+            "is_function": true,
+            "uuid": "e6613160-5f74-443d-8fdc-e134cc4bcb5b"
+        },
+        {
+            "function_name": "ipv6",
+            "description": "Generates a random IPv6 address.",
+            "short_name": "IPv6",
+            "short_code": "IP6",
+            "is_function": true,
+            "uuid": "0f49c068-16e7-4646-bec3-327dbb2f3059"
+        },
+        {
+            "function_name": "locale",
+            "description": "Generates a random locale string.",
+            "short_name": "Locale",
+            "short_code": "LO",
+            "is_function": true,
+            "uuid": "7bdbfc0f-ff15-4f72-9e21-5a808087e803"
+        },
+        {
+            "function_name": "image",
+            "description": "Generates a random image URL.",
+            "short_name": "Image URL",
+            "short_code": "IURL",
+            "is_function": true,
+            "uuid": "bbb7d849-1e1e-45e3-af7c-27bef8055da3"
+        },
+        {
+            "function_name": "unix_partition",
+            "description": "Generates a random Unix partition string.",
+            "short_name": "Unix Partition",
+            "short_code": "UNIXP",
+            "is_function": true,
+            "uuid": "6cdb9e7d-e1a7-4f2b-bb07-024014ff4569"
+        },
+        {
+            "function_name": "mic",
+            "description": "Generates a random Market Identifier Code.",
+            "short_name": "MIC",
+            "short_code": "MICSTOCK",
+            "is_function": true,
+            "uuid": "803224ca-aad5-48f8-b864-de136eb4cdfb"
+        },
+        {
+            "function_name": "numerify",
+            "description": "Returns a string replaced by '#' with random number.",
+            "short_name": "Numerify",
+            "short_code": "NUM",
+            "is_function": true,
+            "uuid": "dcdac1f3-fa9b-4ad4-bdf2-88e9c9630a5b"
+        },
+        {
+            "function_name": "int",
+            "description": "Generates a random integer.",
+            "short_name": "Integer",
+            "short_code": "INT",
+            "is_function": true,
+            "uuid": "cdbeda73-73e1-4af6-a716-2b58c52890d4"
+        },
+        {
+            "function_name": "ticker",
+            "description": "Generates a random stock ticker.",
+            "short_name": "Ticker",
+            "short_code": "TIC",
+            "is_function": true,
+            "uuid": "34e2ae0b-7e41-490b-bbdb-6d98609e296f"
+        },
+        {
+            "function_name": "credit_card_full",
+            "description": "Generates a random full credit card information.",
+            "short_name": "Credit Card",
+            "short_code": "CC",
+            "is_function": true,
+            "uuid": "732a9842-6612-4b8a-9ae3-87cef952f41a"
+        },
+        {
+            "function_name": "free_email_domain",
+            "description": "Generates a random free email domain.",
+            "short_name": "Free Email Domain",
+            "short_code": "FED",
+            "is_function": true,
+            "uuid": "24278a3d-6e10-4101-b07b-f10353a9cc27"
+        },
+        {
+            "function_name": "vin",
+            "description": "Generates a random vehicle identification number.",
+            "short_name": "VIN",
+            "short_code": "VIN",
+            "is_function": true,
+            "uuid": "35f01d3c-2d3a-452e-a568-2c69993eb2b9"
+        },
+        {
+            "function_name": "passport_gender",
+            "description": "Generates a random passport gender.",
+            "short_name": "Passport Gender",
+            "short_code": "PASSGENDER",
+            "is_function": true,
+            "uuid": "50444356-d30e-485d-8b0d-e0265c5d33a5"
+        },
+        {
+            "function_name": "linux_processor",
+            "description": "Generates a random Linux processor string.",
+            "short_name": "Linux Processor",
+            "short_code": "QRCL",
+            "is_function": true,
+            "uuid": "c7eab554-f6c4-44e3-93eb-a3b7ef6fa2d3"
+        },
+        {
+            "function_name": "time",
+            "description": "Generates a random time string.",
+            "short_name": "Time",
+            "short_code": "TIME",
+            "is_function": true,
+            "uuid": "ae51e536-78fb-4ea3-9aa3-8a68e3283124"
+        },
+        {
+            "function_name": "ean13",
+            "description": "Generates a random EAN-13 barcode.",
+            "short_name": "EAN13 Barcode",
+            "short_code": "EAN13",
+            "is_function": true,
+            "uuid": "3a67b5bc-ccff-4d02-badc-bccd5e60a50c"
+        },
+        {
+            "function_name": "items",
+            "description": "Generates a random list of items.",
+            "short_name": "Items",
+            "short_code": "ITEMS",
+            "is_function": true,
+            "uuid": "91896743-98cc-497e-b6e7-92393477934f"
+        },
+        {
+            "function_name": "tsv",
+            "description": "Generates a random tab-separated values string.",
+            "short_name": "TSV",
+            "short_code": "TSV",
+            "is_function": true,
+            "uuid": "10ed3209-3376-4df9-a74f-b0dbc48908db"
+        },
+        {
+            "function_name": "itin",
+            "description": "Generates a random Individual Taxpayer Identification Number.",
+            "short_name": "ITIN",
+            "short_code": "ITIN",
+            "is_function": true,
+            "uuid": "fec58bc7-d2d0-44b3-aed4-a561a204d221"
+        },
+        {
+            "function_name": "passport_dates",
+            "description": "Generates a fake passport dates.",
+            "short_name": "PassDates",
+            "short_code": "NEOS",
+            "is_function": true,
+            "uuid": "fb9a77ee-ebdf-499f-ba86-5f7c731e12de"
+        },
+        {
+            "function_name": "nsin",
+            "description": "Generates a fake National identification number (Canada).",
+            "short_name": "NationalID",
+            "short_code": "NID",
+            "is_function": true,
+            "uuid": "77e6bf33-7c79-4fcb-aac6-1389f52f408c"
+        },
+        {
+            "function_name": "currency_name",
+            "description": "Generates a fake currency name.",
+            "short_name": "CurrName",
+            "short_code": "CURNAME",
+            "is_function": true,
+            "uuid": "cbd8802d-a063-4e9a-8c92-b3f7ef49d4c0"
+        },
+        {
+            "function_name": "text",
+            "description": "Generates a fake text.",
+            "short_name": "Text",
+            "short_code": "TX",
+            "is_function": true,
+            "uuid": "ca567bf4-1f48-4b72-89e1-bce8b949c643"
+        },
+        {
+            "function_name": "vehicle_object",
+            "description": "Generates a fake vehicle object.",
+            "short_name": "VehObj",
+            "short_code": "VO",
+            "is_function": true,
+            "uuid": "b47edf1f-dc88-4b75-b6b9-505f90c0185a"
+        },
+        {
+            "function_name": "uri_page",
+            "description": "Generates a fake URI page.",
+            "short_name": "UriPage",
+            "short_code": "UPAGE",
+            "is_function": true,
+            "uuid": "77987a54-372e-42cb-b203-b872da40f9df"
+        },
+        {
+            "function_name": "isbn10",
+            "description": "Generates a fake ISBN-10 number.",
+            "short_name": "ISBN10",
+            "short_code": "I10",
+            "is_function": true,
+            "uuid": "a1a87c8a-c41a-4e95-a079-20a7d78ebc44"
+        },
+        {
+            "function_name": "music_instrument_category",
+            "description": "Generates a fake music instrument category.",
+            "short_name": "MusInstCat",
+            "short_code": "MIC",
+            "is_function": true,
+            "uuid": "99be73c6-9f9b-4bf9-86aa-e2ddd1437da9"
+        },
+        {
+            "function_name": "cryptocurrency_code",
+            "description": "Generates a fake cryptocurrency code.",
+            "short_name": "CryptoCode",
+            "short_code": "CRYPTOCODE",
+            "is_function": true,
+            "uuid": "c6a94d82-2990-4f7a-8002-12b5471d73b3"
+        },
+        {
+            "function_name": "year",
+            "description": "Generates a fake year.",
+            "short_name": "Year",
+            "short_code": "YR",
+            "is_function": true,
+            "uuid": "dcb17ce0-1e72-4292-b7e9-101aef7983e0"
+        },
+        {
+            "function_name": "figi",
+            "description": "Generates a fake Financial Instrument Global Identifier (FIGI).",
+            "short_name": "FIGI",
+            "short_code": "FG",
+            "is_function": true,
+            "uuid": "e63a759c-87df-4dd2-9968-fbc13ead15a3"
+        },
+        {
+            "function_name": "ios_platform_token",
+            "description": "Generates a fake iOS platform token.",
+            "short_name": "IOSPT",
+            "short_code": "IPT",
+            "is_function": true,
+            "uuid": "0a70e287-f493-49f6-b6d9-aff15b7c5f27"
+        },
+        {
+            "function_name": "street_address",
+            "description": "Generates a fake street address.",
+            "short_name": "StAddress",
+            "short_code": "SA",
+            "is_function": true,
+            "uuid": "fb9d915c-2838-4625-a123-0ea1fbeecf66"
+        },
+        {
+            "function_name": "machine_make_model",
+            "description": "Generates a fake machine make and model.",
+            "short_name": "MachMM",
+            "short_code": "MMM",
+            "is_function": true,
+            "uuid": "2a34708e-a3f5-46dc-b046-b16f5bf0a375"
+        },
+        {
+            "function_name": "file_extension",
+            "description": "Generates a fake file extension.",
+            "short_name": "FileExt",
+            "short_code": "FILEEX",
+            "is_function": true,
+            "uuid": "d137c96b-5cb1-450c-bdbc-a8469c13d6ca"
+        },
+        {
+            "function_name": "month",
+            "description": "Generates a fake month.",
+            "short_name": "Month",
+            "short_code": "MNTH",
+            "is_function": true,
+            "uuid": "a55517fc-440a-4fe0-a903-1eb8c87765a7"
+        },
+        {
+            "function_name": "ipv4_private",
+            "description": "Generates a fake private IPv4 address.",
+            "short_name": "IPv4Priv",
+            "short_code": "IP4PRIV",
+            "is_function": true,
+            "uuid": "6567468d-859d-439d-985d-cf99495fe44a"
+        },
+        {
+            "function_name": "postalcode",
+            "description": "Generates a fake postal code.",
+            "short_name": "PostCode",
+            "short_code": "POSTAL",
+            "is_function": true,
+            "uuid": "97d6d538-e0b5-4106-b12d-f5d7f9914dd2"
+        },
+        {
+            "function_name": "date",
+            "description": "Generates a fake date.",
+            "short_name": "Date",
+            "short_code": "DATE",
+            "is_function": true,
+            "uuid": "f586dbdb-5205-466c-a4d7-3af855371e53"
+        },
+        {
+            "function_name": "suffix_nonbinary",
+            "description": "Generates a fake non-binary suffix.",
+            "short_name": "NonBinSuffix",
+            "short_code": "NBS",
+            "is_function": true,
+            "uuid": "8adab7ff-3ddf-480a-a476-6f2373fc6f06"
+        },
+        {
+            "function_name": "currency",
+            "description": "Generates a fake currency.",
+            "short_name": "Currency",
+            "short_code": "CUR",
+            "is_function": true,
+            "uuid": "30743936-3c27-413f-a4a8-b16c3f0b1322"
+        },
+        {
+            "function_name": "safari",
+            "description": "Generates a fake Safari browser user agent string.",
+            "short_name": "SafariUA",
+            "short_code": "SUA",
+            "is_function": true,
+            "uuid": "1f727f1d-12b7-489e-8cb2-06cec9010a9a"
+        },
+        {
+            "function_name": "domain_name",
+            "description": "Generates a fake domain name.",
+            "short_name": "DomainName",
+            "short_code": "DN",
+            "is_function": true,
+            "uuid": "cd9c5e72-e0c8-41df-89dd-6d0f8fc4ceac"
+        },
+        {
+            "function_name": "ipv4",
+            "description": "Generates a fake IPv4 address.",
+            "short_name": "IPv4",
+            "short_code": "IP4",
+            "is_function": true,
+            "uuid": "ef3abae0-3f45-4754-baa0-5f1889aefc7f"
+        },
+        {
+            "function_name": "ssn",
+            "description": "Generates a fake Social Security number (USA).",
+            "short_name": "SSN",
+            "short_code": "SSN",
+            "is_function": true,
+            "uuid": "d2d04b09-e628-4dd0-a0b3-dbcdf3b8d104"
+        },
+        {
+            "function_name": "seed_instance",
+            "description": "Generates a fake seed instance.",
+            "short_name": "SeedInst",
+            "short_code": "SI",
+            "is_function": true,
+            "uuid": "ed9c98a2-9cc7-4129-8bed-b0000e03e521"
+        },
+        {
+            "function_name": "credit_card_expire",
+            "description": "Generates a fake credit card expiration date.",
+            "short_name": "CCExp",
+            "short_code": "CCE",
+            "is_function": true,
+            "uuid": "fb4ce3c8-f53b-4d26-aa24-503d13799018"
+        },
+        {
+            "function_name": "job",
+            "description": "Generates a fake job title.",
+            "short_name": "Job",
+            "short_code": "JOB",
+            "is_function": true,
+            "uuid": "90162758-e1fa-4882-b0b5-55dd887a071d"
+        },
+        {
+            "function_name": "opera",
+            "description": "Generates a fake Opera browser user agent string.",
+            "short_name": "OperaUA",
+            "short_code": "OUA",
+            "is_function": true,
+            "uuid": "04dbb2c3-c79c-49e4-9ec5-d930ae2d50f7"
+        },
+        {
+            "function_name": "swift11",
+            "description": "Generates a fake SWIFT/BIC code (11 characters).",
+            "short_name": "Swift11",
+            "short_code": "S11",
+            "is_function": true,
+            "uuid": "8e78e589-11da-45a9-9ca5-a9d4e275b78e"
+        },
+        {
+            "function_name": "image_url",
+            "description": "Generates a fake image URL.",
+            "short_name": "ImgURL",
+            "short_code": "IU",
+            "is_function": true,
+            "uuid": "022adb04-c1cc-4994-b076-96126c7846c6"
+        },
+        {
+            "function_name": "localized_ean8",
+            "description": "Generates a fake localized EAN-8 barcode number.",
+            "short_name": "LocEAN8",
+            "short_code": "LE8",
+            "is_function": true,
+            "uuid": "6ff8e3da-b892-4019-913e-a40a991a7e36"
+        },
+        {
+            "function_name": "credit_card_security_code",
+            "description": "Generates a fake credit card security code (CVV).",
+            "short_name": "CCSecCode",
+            "short_code": "CSC",
+            "is_function": true,
+            "uuid": "18777274-4856-4f0b-abd8-e5be88caac33"
+        },
+        {
+            "function_name": "date_time",
+            "description": "Generates a random date and time.",
+            "short_name": "DateTime",
+            "short_code": "DTIME",
+            "is_function": true,
+            "uuid": "c748b9e2-743d-435d-9919-160de3173b85"
+        },
+        {
+            "function_name": "random_digit_not_null_or_empty",
+            "description": "Generates a random digit, but not a null or empty value.",
+            "short_name": "NonNullDigit",
+            "short_code": "LICX",
+            "is_function": true,
+            "uuid": "07bc5c1a-3bc9-456e-8c60-a0b72e429cdd"
+        },
+        {
+            "function_name": "machine_object",
+            "description": "Generates a random machine object.",
+            "short_name": "MachineObj",
+            "short_code": "MO",
+            "is_function": true,
+            "uuid": "fb8f9b8e-90b7-428a-b9bd-a032e949c38b"
+        },
+        {
+            "function_name": "cusip",
+            "description": "Generates a random CUSIP (Committee on Uniform Securities Identification Procedures) number.",
+            "short_name": "CUSIP",
+            "short_code": "CUSIP",
+            "is_function": true,
+            "uuid": "17298afe-c67b-4fe5-9a58-f74d9f2cd677"
+        },
+        {
+            "function_name": "suffix_female",
+            "description": "Generates a random female suffix.",
+            "short_name": "FemaleSuffix",
+            "short_code": "FS",
+            "is_function": true,
+            "uuid": "7ca8d8ca-6bf4-4ba2-b38c-d8460b3bfcdb"
+        },
+        {
+            "function_name": "get_arguments",
+            "description": "Gets arguments for a function.",
+            "short_name": "Arguments",
+            "short_code": "ARGS",
+            "is_function": true,
+            "uuid": "4f832de5-abdb-41be-b2e3-e365c2203a0b"
+        },
+        {
+            "function_name": "zipcode",
+            "description": "Generates a random ZIP code.",
+            "short_name": "ZipCode",
+            "short_code": "NWEB",
+            "is_function": true,
+            "uuid": "3445dbb1-d9d3-40ee-a8d8-a4541c978766"
+        },
+        {
+            "function_name": "hostname",
+            "description": "Generates a random hostname.",
+            "short_name": "HostName",
+            "short_code": "HN",
+            "is_function": true,
+            "uuid": "58ecd9b7-d696-4e07-ab3f-7b6df7217457"
+        },
+        {
+            "function_name": "hexify",
+            "description": "Transforms a string into a hexadecimal string.",
+            "short_name": "Hexify",
+            "short_code": "HEX",
+            "is_function": true,
+            "uuid": "18f5cdc0-af8f-46a9-bd7f-753fa662268e"
+        },
+        {
+            "function_name": "suffix",
+            "description": "Generates a random suffix.",
+            "short_name": "Suffix",
+            "short_code": "SFX",
+            "is_function": true,
+            "uuid": "b268f7d3-02a3-4342-9fe2-082500af36b6"
+        },
+        {
+            "function_name": "language_code",
+            "description": "Generates a random language code.",
+            "short_name": "LangCode",
+            "short_code": "LC",
+            "is_function": true,
+            "uuid": "8dc28d57-dd1a-4865-b677-b85d2d7481b2"
+        },
+        {
+            "function_name": "currency_symbol",
+            "description": "Generates a random currency symbol.",
+            "short_name": "CurrencySym",
+            "short_code": "CURSYM",
+            "is_function": true,
+            "uuid": "15d07ae9-5cbf-45ba-892b-24907860a77f"
+        },
+        {
+            "function_name": "random_digit",
+            "description": "Generates a random digit.",
+            "short_name": "RandomDigit",
+            "short_code": "RD",
+            "is_function": true,
+            "uuid": "c4cd6177-ac9a-4c74-96b9-dbaf9408a47c"
+        },
+        {
+            "function_name": "date_of_birth",
+            "description": "Generates a random date of birth.",
+            "short_name": "DOB",
+            "short_code": "DOB",
+            "is_function": true,
+            "uuid": "b060b128-b29c-470c-8b1a-d50e97f440ce"
+        },
+        {
+            "function_name": "unix_device",
+            "description": "Generates a random Unix device.",
+            "short_name": "UnixDevice",
+            "short_code": "UD",
+            "is_function": true,
+            "uuid": "e318f050-a16b-48bb-96b7-49e9e4c0a36d"
+        },
+        {
+            "function_name": "rgb_color",
+            "description": "Generates a random RGB color.",
+            "short_name": "RGBColor",
+            "short_code": "RGB",
+            "is_function": true,
+            "uuid": "aa85b565-6b42-49bf-9400-15dc62c5ccea"
+        },
+        {
+            "function_name": "phone_number",
+            "description": "Generates a random phone number.",
+            "short_name": "PhoneNumber",
+            "short_code": "PN",
+            "is_function": true,
+            "uuid": "27fa7d4f-a9b7-4ba4-88b9-a069910d34e9"
+        },
+        {
+            "function_name": "ipv4_network_class",
+            "description": "Generates a random IPv4 network class.",
+            "short_name": "IPv4Class",
+            "short_code": "IP4C",
+            "is_function": true,
+            "uuid": "c3b24b23-f85c-4481-ac07-ed307ac132c8"
+        },
+        {
+            "function_name": "mac_address",
+            "description": "Generates a random MAC address.",
+            "short_name": "MacAddress",
+            "short_code": "MAC",
+            "is_function": true,
+            "uuid": "58655176-789c-48fa-9f92-3ce11b342006"
+        },
+        {
+            "function_name": "currency_code",
+            "description": "Generates a random currency code.",
+            "short_name": "CurrencyCode",
+            "short_code": "CURCODE",
+            "is_function": true,
+            "uuid": "96d5e66f-4272-4dfb-adf3-c0845f3fe8bc"
+        },
+        {
+            "function_name": "email",
+            "description": "Generates a random email address.",
+            "short_name": "Email",
+            "short_code": "EML",
+            "is_function": true,
+            "uuid": "0549a267-7487-461f-8eed-cca457cf9268"
+        },
+        {
+            "function_name": "state",
+            "description": "Generates a random U.S. state.",
+            "short_name": "State",
+            "short_code": "ST",
+            "is_function": true,
+            "uuid": "b3251ea2-fda2-4327-8c5d-279956f7b1a5"
+        },
+        {
+            "function_name": "url",
+            "description": "Generates a random URL.",
+            "short_name": "URL",
+            "short_code": "URL",
+            "is_function": true,
+            "uuid": "6d64146e-1843-49c8-bd1e-ee27121a3bdf"
+        },
+        {
+            "function_name": "timezone",
+            "description": "Generates a random timezone.",
+            "short_name": "TimeZone",
+            "short_code": "TZ",
+            "is_function": true,
+            "uuid": "2961a9a1-dd48-4f3e-a4e7-d6ab998844a1"
+        },
+        {
+            "function_name": "state_abbr",
+            "description": "Generates a random U.S. state abbreviation.",
+            "short_name": "StateAbbr",
+            "short_code": "STA",
+            "is_function": true,
+            "uuid": "996ca6ec-4a0d-4962-925e-2bd757605d8e"
+        },
+        {
+            "function_name": "credit_card_number",
+            "description": "Generates a random fake credit card number.",
+            "short_name": "CC Number",
+            "short_code": "CCN",
+            "is_function": true,
+            "uuid": "72c45535-cd4b-4a8a-8e95-54735d4b5a5a"
+        },
+        {
+            "function_name": "cryptocurrency",
+            "description": "Generates a random fake cryptocurrency name and code.",
+            "short_name": "Crypto",
+            "short_code": "CRYPTO",
+            "is_function": true,
+            "uuid": "a8a353ce-a3a5-4aaf-93ed-9e65a55adaed"
+        },
+        {
+            "function_name": "csv",
+            "description": "Generates a random fake CSV file.",
+            "short_name": "CSV File",
+            "short_code": "CSV",
+            "is_function": true,
+            "uuid": "833bc387-8806-42e9-969e-4f87352189e9"
+        },
+        {
+            "function_name": "current_country",
+            "description": "Generates a random fake current country.",
+            "short_name": "Country",
+            "short_code": "CNTRY",
+            "is_function": true,
+            "uuid": "a704eabb-ced0-4078-9352-5e4288daf3c5"
+        },
+        {
+            "function_name": "date_between",
+            "description": "Generates a random date between two given dates.",
+            "short_name": "Date Between",
+            "short_code": "DTBT",
+            "is_function": true,
+            "uuid": "25c85074-e934-4e16-85b5-d0ba0581f476"
+        },
+        {
+            "function_name": "date_this_century",
+            "description": "Generates a random date in this century.",
+            "short_name": "Century Date",
+            "short_code": "CDATE",
+            "is_function": true,
+            "uuid": "d8fd7c8b-9844-418c-bb37-c8fb08047237"
+        },
+        {
+            "function_name": "date_this_month",
+            "description": "Generates a random date in this month.",
+            "short_name": "Month Date",
+            "short_code": "MDATE",
+            "is_function": true,
+            "uuid": "55be38d2-17f4-4a7d-a8f0-8e6193dc02bd"
+        },
+        {
+            "function_name": "date_this_year",
+            "description": "Generates a random date in this year.",
+            "short_name": "Year Date",
+            "short_code": "YDATE",
+            "is_function": true,
+            "uuid": "15180192-c6b1-4b44-9ab6-2d5086431bd8"
+        },
+        {
+            "function_name": "date_time_ad",
+            "description": "Generates a random date and time in the AD period.",
+            "short_name": "DateTime AD",
+            "short_code": "DTAD",
+            "is_function": true,
+            "uuid": "96715a7c-6be3-42b2-a8e2-0a73080be430"
+        },
+        {
+            "function_name": "date_time_between_dates",
+            "description": "Generates a random date and time between two given dates.",
+            "short_name": "DateTime Between",
+            "short_code": "DTBTW",
+            "is_function": true,
+            "uuid": "e2568ac1-62d2-4752-ab47-933ab1428d94"
+        },
+        {
+            "function_name": "date_time_this_century",
+            "description": "Generates a random date and time in this century.",
+            "short_name": "DateTime Century",
+            "short_code": "DTC",
+            "is_function": true,
+            "uuid": "7d5107bf-4dff-41eb-acc7-4c277140e72c"
+        },
+        {
+            "function_name": "date_time_this_decade",
+            "description": "Generates a random date and time in this decade.",
+            "short_name": "DateTime Decade",
+            "short_code": "DTD",
+            "is_function": true,
+            "uuid": "30f94527-0742-4cc8-b752-d8e7dfb7e20e"
+        },
+        {
+            "function_name": "day_of_month",
+            "description": "Generates a random day of the month.",
+            "short_name": "Day of Month",
+            "short_code": "DOM",
+            "is_function": true,
+            "uuid": "ae0564c0-e2ef-4ba7-9455-14d809880b28"
+        },
+        {
+            "function_name": "day_of_week",
+            "description": "Generates a random day of the week.",
+            "short_name": "Day of Week",
+            "short_code": "DOW",
+            "is_function": true,
+            "uuid": "814b2394-a262-41dc-8468-a17a9afc7746"
+        },
+        {
+            "function_name": "del_arguments",
+            "description": "Deletes arguments from a function.",
+            "short_name": "Del Arguments",
+            "short_code": "DELARGS",
+            "is_function": true,
+            "uuid": "9ec048f5-c4d4-4651-9994-d531bf5884e6"
+        },
+        {
+            "function_name": "domain_word",
+            "description": "Generates a random domain word.",
+            "short_name": "Domain",
+            "short_code": "DOMAIN",
+            "is_function": true,
+            "uuid": "21a38b71-3f79-454c-88d6-ec48ac2ab55b"
+        },
+        {
+            "function_name": "ean",
+            "description": "Generates a random EAN code.",
+            "short_name": "EAN",
+            "short_code": "EAN",
+            "is_function": true,
+            "uuid": "2f37220d-1546-48ff-a2b0-6b4c835e9f65"
+        },
+        {
+            "function_name": "ean8",
+            "description": "Generates a random EAN8 code.",
+            "short_name": "EAN8",
+            "short_code": "EAN8",
+            "is_function": true,
+            "uuid": "3514cbf2-5621-404c-bcfe-d87cb83199f2"
+        },
+        {
+            "function_name": "enum",
+            "description": "Generates a random enumeration.",
+            "short_name": "Enum",
+            "short_code": "ENUM",
+            "is_function": true,
+            "uuid": "c912e5c5-8ab3-4ef3-9f2f-efa3b2ca1234"
+        },
+        {
+            "function_name": "file_name",
+            "description": "Generates a random file name.",
+            "short_name": "File",
+            "short_code": "FILE",
+            "is_function": true,
+            "uuid": "e95cb4bc-bd58-4c1a-8187-1ed407f3065b"
+        },
+        {
+            "function_name": "file_path",
+            "description": "Generates a random file path.",
+            "short_name": "FilePath",
+            "short_code": "FPATH",
+            "is_function": true,
+            "uuid": "eb754080-1598-40f5-bbd5-165e9418b773"
+        },
+        {
+            "function_name": "firefox",
+            "description": "Generates a fake Firefox version.",
+            "short_name": "Firefox",
+            "short_code": "FFOX",
+            "is_function": true,
+            "uuid": "c7b8e92f-5341-4f7c-97a0-864e889aa9d4"
+        },
+        {
+            "function_name": "first_name_male",
+            "description": "Generates a random male first name.",
+            "short_name": "Male First",
+            "short_code": "MFNAME",
+            "is_function": true,
+            "uuid": "4754bac6-fb4b-42d0-89e0-9b1151d8a143"
+        },
+        {
+            "function_name": "first_name_nonbinary",
+            "description": "Generates a random nonbinary first name.",
+            "short_name": "Nonbinary First",
+            "short_code": "NBFNAME",
+            "is_function": true,
+            "uuid": "23d9471a-1c66-4525-95c3-8ca2eb476c64"
+        },
+        {
+            "function_name": "fixed_width",
+            "description": "Generates a random fixed width string.",
+            "short_name": "Fixed Width",
+            "short_code": "FWIDTH",
+            "is_function": true,
+            "uuid": "fea0c0b2-ed6c-4244-ac5d-83be9a9e2ce9"
+        },
+        {
+            "function_name": "format",
+            "description": "Formats a string.",
+            "short_name": "Format",
+            "short_code": "FMT",
+            "is_function": true,
+            "uuid": "6ab26a3c-8b42-4146-856d-1482cafe8b55"
+        },
+        {
+            "function_name": "future_date",
+            "description": "Generates a random future date.",
+            "short_name": "Future Date",
+            "short_code": "FDATE",
+            "is_function": true,
+            "uuid": "eb59c22b-e030-40b8-91da-8185dfea0841"
+        },
+        {
+            "function_name": "future_datetime",
+            "description": "Generates a random future date and time.",
+            "short_name": "Future DateTime",
+            "short_code": "FDT",
+            "is_function": true,
+            "uuid": "26f08414-2d8d-4676-b3fc-9e87680adbdd"
+        },
+        {
+            "function_name": "internet_explorer",
+            "description": "Generates a fake Internet Explorer version.",
+            "short_name": "IE",
+            "short_code": "IE",
+            "is_function": true,
+            "uuid": "9c7904d9-cde9-4d7c-9fd9-2f4aaf9c574f"
+        },
+        {
+            "function_name": "isin",
+            "description": "Generates a random ISIN.",
+            "short_name": "ISIN",
+            "short_code": "ISIN",
+            "is_function": true,
+            "uuid": "061a3092-c11b-4555-8603-3a5e3c4aa720"
+        },
+        {
+            "function_name": "iso8601",
+            "description": "Generates a random ISO8601 timestamp.",
+            "short_name": "ISO8601",
+            "short_code": "ISO8601",
+            "is_function": true,
+            "uuid": "08d90ad0-c2b5-47a5-bdb1-63d0607d7a5c"
+        },
+        {
+            "function_name": "json",
+            "description": "Generates a random JSON object.",
+            "short_name": "JSON",
+            "short_code": "JSON",
+            "is_function": true,
+            "uuid": "d5a58829-2b79-4be8-a04a-8571727f5b70"
+        },
+        {
+            "function_name": "json_bytes",
+            "description": "Generates a JSON object and returns it as bytes.",
+            "short_name": "JSON Bytes",
+            "short_code": "JB",
+            "is_function": true,
+            "uuid": "05ffe1bc-ac9b-477c-847d-523c6ca264d9"
+        },
+        {
+            "function_name": "language_name",
+            "description": "Generates a random language name.",
+            "short_name": "Language Name",
+            "short_code": "LANGN",
+            "is_function": true,
+            "uuid": "5020b693-bfd3-41c0-8f87-337d9e45b87c"
+        },
+        {
+            "function_name": "last_name",
+            "description": "Generates a random last name.",
+            "short_name": "Last Name",
+            "short_code": "LN",
+            "is_function": true,
+            "uuid": "3bb47901-ae7c-46ba-82b6-d284db109541"
+        },
+        {
+            "function_name": "last_name_female",
+            "description": "Generates a random female last name.",
+            "short_name": "Female Last Name",
+            "short_code": "FLN",
+            "is_function": true,
+            "uuid": "46a6eb9e-c897-458c-9b03-52de8f028e04"
+        },
+        {
+            "function_name": "last_name_male",
+            "description": "Generates a random male last name.",
+            "short_name": "Male Last Name",
+            "short_code": "MLN",
+            "is_function": true,
+            "uuid": "22f1d6f7-3c8a-42ba-9eab-163435815ddf"
+        },
+        {
+            "function_name": "latlng",
+            "description": "Generates a random latitude and longitude coordinates.",
+            "short_name": "LatLng",
+            "short_code": "LL",
+            "is_function": true,
+            "uuid": "bccc0a1f-ba8f-4db8-b2dc-473be221c34d"
+        },
+        {
+            "function_name": "lexify",
+            "description": "Generates a random string of characters.",
+            "short_name": "Lexify",
+            "short_code": "LX",
+            "is_function": true,
+            "uuid": "3059516d-fe7d-4be7-88d6-209bc2ac8387"
+        },
+        {
+            "function_name": "license_plate",
+            "description": "Generates a random license plate number.",
+            "short_name": "License Plate",
+            "short_code": "LP",
+            "is_function": true,
+            "uuid": "85806243-0ed2-4f59-a40e-84ab121d8220"
+        },
+        {
+            "function_name": "longitude",
+            "description": "Generates a random longitude value.",
+            "short_name": "Longitude",
+            "short_code": "LONG",
+            "is_function": true,
+            "uuid": "40942e2a-cb16-45e1-8301-9854ca472018"
+        },
+        {
+            "function_name": "password",
+            "description": "Generates a random password string.",
+            "short_name": "Password",
+            "short_code": "PW",
+            "is_function": true,
+            "uuid": "cae5ad80-55a6-4a25-a464-71f9a7fcdbf3"
+        },
+        {
+            "function_name": "music_genre",
+            "description": "Generates a random music genre.",
+            "short_name": "Music Genre",
+            "short_code": "MG",
+            "is_function": true,
+            "uuid": "a4038aa4-c6f0-47fa-b6a1-f7f48ea802b8"
+        },
+        {
+            "function_name": "random_int",
+            "description": "Generates a random integer.",
+            "short_name": "Random Integer",
+            "short_code": "RI",
+            "is_function": true,
+            "uuid": "7f79cfb7-6f54-435b-910b-9412912bb585"
+        },
+        {
+            "function_name": "random_letter",
+            "description": "Generates a random letter.",
+            "short_name": "Random Letter",
+            "short_code": "SISA",
+            "is_function": true,
+            "uuid": "04240d93-e2d5-48f0-b91e-a69f637a5e51"
+        },
+        {
+            "function_name": "random_uppercase_letter",
+            "description": "Generates a random uppercase letter.",
+            "short_name": "Random Uppercase Letter",
+            "short_code": "RUL",
+            "is_function": true,
+            "uuid": "198ca4ca-448c-461b-863f-85fde8be3c00"
+        },
+        {
+            "function_name": "safe_email",
+            "description": "Generates a random safe email address.",
+            "short_name": "Safe Email",
+            "short_code": "SEMAIL",
+            "is_function": true,
+            "uuid": "f63d332e-8c10-41e7-a40d-71794661f359"
+        },
+        {
+            "function_name": "slug",
+            "description": "Generates a random slug string.",
+            "short_name": "Slug",
+            "short_code": "SL",
+            "is_function": true,
+            "uuid": "6d81cc60-ab87-4a3b-8eba-7abe65d62a41"
+        },
+        {
+            "function_name": "vehicle_year",
+            "description": "Generates a random vehicle year.",
+            "short_name": "Vehicle Year",
+            "short_code": "VY",
+            "is_function": true,
+            "uuid": "e1613a9e-81ec-42e8-9cff-b2eea052e2f1"
+        },
+        {
+            "function_name": "word",
+            "description": "Generates a random word.",
+            "short_name": "Word",
+            "short_code": "WD",
+            "is_function": true,
+            "uuid": "20eeda68-84bb-4ffb-b342-b78d78efca0b"
+        },
+        {
+            "function_name": "zip",
+            "description": "Generates a random zip code.",
+            "short_name": "Zip",
+            "short_code": "ZIP",
+            "is_function": true,
+            "uuid": "9c721cd0-7bbe-49f6-8a77-2dd958cfb13a"
+        },
+        {
+            "function_name": "lei",
+            "description": "Generates a random Legal Entity Identifier (LEI).",
+            "short_name": "Legal Entity Identifier",
+            "short_code": "LEI",
+            "is_function": true,
+            "uuid": "994c37b8-f32c-4d69-b834-cbfacc11dc3a"
+        },
+        {
+            "function_name": "linux_platform_token",
+            "description": "Generates a random Linux platform token.",
+            "short_name": "Linux Platform Token",
+            "short_code": "LPT",
+            "is_function": true,
+            "uuid": "2f128b74-5365-4ff1-9a11-ab3080df8b75"
+        },
+        {
+            "function_name": "localized_ean",
+            "description": "Generates a random Localized European Article Number (EAN).",
+            "short_name": "Localized EAN",
+            "short_code": "LEAN",
+            "is_function": true,
+            "uuid": "dbe42bb1-4357-4c43-a1d9-063d0b58b833"
+        },
+        {
+            "function_name": "localized_ean13",
+            "description": "Generates a random 13-digit Localized European Article Number (EAN).",
+            "short_name": "Localized 13-digit EAN",
+            "short_code": "LEAN13",
+            "is_function": true,
+            "uuid": "7fe1b10c-e526-4fe3-8881-51504157ad48"
+        },
+        {
+            "function_name": "mac_platform_token",
+            "description": "Generates a random Mac platform token.",
+            "short_name": "Mac Platform Token",
+            "short_code": "MPT",
+            "is_function": true,
+            "uuid": "1b415657-8a2f-41f7-aac1-75e4dc2dd9c7"
+        },
+        {
+            "function_name": "machine_category",
+            "description": "Generates a random machine category.",
+            "short_name": "Machine Category",
+            "short_code": "MC",
+            "is_function": true,
+            "uuid": "08fa6fee-5934-4ec3-84a6-1efc6d758025"
+        },
+        {
+            "function_name": "machine_model",
+            "description": "Generates a random machine model.",
+            "short_name": "Machine Model",
+            "short_code": "MM",
+            "is_function": true,
+            "uuid": "02fc6b15-d539-4758-9eac-6651ef66e5e9"
+        },
+        {
+            "function_name": "machine_year",
+            "description": "Generates a random year for a machine.",
+            "short_name": "Machine Year",
+            "short_code": "MY",
+            "is_function": true,
+            "uuid": "ae4b7885-0c02-4a7a-a0e4-e2c6f9cbfb04"
+        },
+        {
+            "function_name": "machine_year_make_model_cat",
+            "description": "Generates a random machine year, make, model, and category.",
+            "short_name": "Machine Year-Make-Model-Category",
+            "short_code": "MYMMC",
+            "is_function": true,
+            "uuid": "66e6699c-cc9a-4fc2-b5e7-399855bba41d"
+        },
+        {
+            "function_name": "marketType",
+            "description": "Generates a random market type.",
+            "short_name": "Market Type",
+            "short_code": "MT",
+            "is_function": true,
+            "uuid": "0dfb9393-f872-455e-b3ed-1d46233d2cfa"
+        },
+        {
+            "function_name": "military_apo",
+            "description": "Generates a random military APO address.",
+            "short_name": "Military APO",
+            "short_code": "MAPO",
+            "is_function": true,
+            "uuid": "2e651e71-44fb-4e71-bbb1-fbb57d2d4377"
+        },
+        {
+            "function_name": "military_dpo",
+            "description": "Generates a random military DPO address.",
+            "short_name": "Military DPO",
+            "short_code": "MDPO",
+            "is_function": true,
+            "uuid": "c3e9fbe2-5d4e-49df-9d3c-acd137176af6"
+        },
+        {
+            "function_name": "military_ship",
+            "description": "Generates a random military ship name.",
+            "short_name": "Military Ship",
+            "short_code": "QTLQ",
+            "is_function": true,
+            "uuid": "b63c9caa-a95c-40e9-a0ca-64216e4eb873"
+        },
+        {
+            "function_name": "military_state",
+            "description": "Generates a random military state.",
+            "short_name": "Military State",
+            "short_code": "DCKT",
+            "is_function": true,
+            "uuid": "2251001e-1152-4bd5-a465-d7fe1ac01c01"
+        },
+        {
+            "function_name": "music_instrument_object",
+            "description": "Generates a random music instrument object.",
+            "short_name": "Music Instrument",
+            "short_code": "MI",
+            "is_function": true,
+            "uuid": "ee3d9a29-a795-45ff-b62f-a791f9606aa7"
+        },
+        {
+            "function_name": "music_subgenre",
+            "description": "Generates a random music subgenre.",
+            "short_name": "Music Subgenre",
+            "short_code": "MS",
+            "is_function": true,
+            "uuid": "60c445e4-e705-49c5-8956-80582f605d79"
+        },
+        {
+            "function_name": "name",
+            "description": "Generates a random name.",
+            "short_name": "Name",
+            "short_code": "N",
+            "is_function": true,
+            "uuid": "293e59b8-a7fc-4ea0-bbab-2a0d8d017b53"
+        },
+        {
+            "function_name": "name_male",
+            "description": "Generates a random male name.",
+            "short_name": "Male Name",
+            "short_code": "MN",
+            "is_function": true,
+            "uuid": "29b81423-d569-46c2-95d3-139835e14d19"
+        },
+        {
+            "function_name": "name_nonbinary",
+            "description": "Generates a random non-binary name.",
+            "short_name": "Non-binary Name",
+            "short_code": "NBN",
+            "is_function": true,
+            "uuid": "13f4713c-a3e1-4b11-bd63-cf8537680844"
+        },
+        {
+            "function_name": "nic_handle",
+            "description": "Generates a random NIC handle.",
+            "short_name": "NIC Handle",
+            "short_code": "NH",
+            "is_function": true,
+            "uuid": "8a85a5c2-c22d-4f60-8728-799336c7953e"
+        },
+        {
+            "function_name": "nic_handles",
+            "description": "Generates a random list of NIC handles.",
+            "short_name": "NIC Handles",
+            "short_code": "NHs",
+            "is_function": true,
+            "uuid": "f207fceb-0dff-46e5-813e-a745dab69709"
+        },
+        {
+            "function_name": "null_boolean",
+            "description": "Generates a random null boolean.",
+            "short_name": "Null Boolean",
+            "short_code": "NB",
+            "is_function": true,
+            "uuid": "dd2c29e7-1006-46c8-8f74-4c08debf8206"
+        },
+        {
+            "function_name": "parse",
+            "description": "Parses and generates data based on a string format.",
+            "short_name": "Parse",
+            "short_code": "EKKV",
+            "is_function": true,
+            "uuid": "e0d95d4f-d349-4237-967a-29c4c6d801d3"
+        },
+        {
+            "function_name": "past_date",
+            "description": "Generates a random past date.",
+            "short_name": "Past Date",
+            "short_code": "PD",
+            "is_function": true,
+            "uuid": "63b9c55c-fc2e-4794-a8f7-873e3e8deb97"
+        },
+        {
+            "function_name": "past_datetime",
+            "description": "Generates a random past datetime.",
+            "short_name": "Past Datetime",
+            "short_code": "PDT",
+            "is_function": true,
+            "uuid": "79e978d2-6cc4-497d-9a19-f5e96c35052e"
+        },
+        {
+            "function_name": "postalcode_in_state",
+            "description": "Generates a random postal code in a specified state.",
+            "short_name": "Postal Code in State",
+            "short_code": "PCIS",
+            "is_function": true,
+            "uuid": "e9514448-45ba-4cdf-824e-60a9f0483ddf"
+        },
+        {
+            "function_name": "postcode_in_state",
+            "description": "Generates a random postcode in a specified state.",
+            "short_name": "Postcode in State",
+            "short_code": "PIS",
+            "is_function": true,
+            "uuid": "42808e05-4a5a-4579-8205-6835a75eb985"
+        },
+        {
+            "function_name": "prefix_female",
+            "description": "Generates a random female prefix.",
+            "short_name": "Female Prefix",
+            "short_code": "FP",
+            "is_function": true,
+            "uuid": "d11810c2-c5e4-4f7c-bdfc-aaccb555e76b"
+        },
+        {
+            "function_name": "prefix_male",
+            "description": "Generates a random male prefix.",
+            "short_name": "Male Prefix",
+            "short_code": "MP",
+            "is_function": true,
+            "uuid": "99a4179c-d7e8-4ee0-b37c-ba6d535ba8bf"
+        },
+        {
+            "function_name": "pricetag",
+            "description": "Generates a random price tag.",
+            "short_name": "Price Tag",
+            "short_code": "PT",
+            "is_function": true,
+            "uuid": "439909a6-92d0-4665-a157-7c9b571ab5b3"
+        },
+        {
+            "function_name": "profile",
+            "description": "Generates a random user profile.",
+            "short_name": "Profile",
+            "short_code": "AOVW",
+            "is_function": true,
+            "uuid": "316b0b55-76a6-4a10-9bd4-fedb16da8c9f"
+        },
+        {
+            "function_name": "provider",
+            "description": "Generates a random provider.",
+            "short_name": "Provider",
+            "short_code": "P",
+            "is_function": true,
+            "uuid": "25a05e76-f3e1-47d0-8ffe-f1f46ce4c6a5"
+        },
+        {
+            "function_name": "psv",
+            "description": "Generates a random PSV (pipe-separated value) string.",
+            "short_name": "PSV",
+            "short_code": "PSV",
+            "is_function": true,
+            "uuid": "73c5709c-f460-42e3-9163-e0f07b81be14"
+        },
+        {
+            "function_name": "pybool",
+            "description": "Generates a random Python boolean value.",
+            "short_name": "Boolean",
+            "short_code": "B",
+            "is_function": true,
+            "uuid": "05163249-aaac-41f0-8767-921068106365"
+        },
+        {
+            "function_name": "pydecimal",
+            "description": "Generates a random Python decimal.",
+            "short_name": "Decimal",
+            "short_code": "D",
+            "is_function": true,
+            "uuid": "bb7d32b7-371f-4144-8d89-7b06b9862c2b"
+        },
+        {
+            "function_name": "pydict",
+            "description": "Generates a random Python dictionary.",
+            "short_name": "Dictionary",
+            "short_code": "Di",
+            "is_function": true,
+            "uuid": "6b0740af-8bfc-45c0-a730-1e4433cfd43e"
+        },
+        {
+            "function_name": "pyfloat",
+            "description": "Generates a random Python float.",
+            "short_name": "Float",
+            "short_code": "F",
+            "is_function": true,
+            "uuid": "a19b62b9-9b99-4952-a18f-6617f129fd7d"
+        },
+        {
+            "function_name": "pyiterable",
+            "description": "Generates a random Python iterable.",
+            "short_name": "Iterable",
+            "short_code": "I",
+            "is_function": true,
+            "uuid": "cf96d42d-63e6-453a-b3ca-f86d76ccd32b"
+        },
+        {
+            "function_name": "pystr",
+            "description": "Generates a random Python string.",
+            "short_name": "String",
+            "short_code": "STR",
+            "is_function": true,
+            "uuid": "1be86992-2394-4b86-9853-a7fb632560f3"
+        },
+        {
+            "function_name": "pystr_format",
+            "description": "Generates a random string based on a template.",
+            "short_name": "StringFormat",
+            "short_code": "SF",
+            "is_function": true,
+            "uuid": "92474df9-1dd7-4799-8449-6d884281df8c"
+        },
+        {
+            "function_name": "pytuple",
+            "description": "Generates a random tuple of elements.",
+            "short_name": "Tuple",
+            "short_code": "T",
+            "is_function": true,
+            "uuid": "0f8b7cb1-fd45-44ea-bb75-8133cdb73623"
+        },
+        {
+            "function_name": "random_choices",
+            "description": "Generates a list of random choices.",
+            "short_name": "RandomChoices",
+            "short_code": "RC",
+            "is_function": true,
+            "uuid": "db5d9b97-4ccf-47e2-bf27-3f627e643f62"
+        },
+        {
+            "function_name": "random_digit_above_two",
+            "description": "Generates a digit that is greater than 2.",
+            "short_name": "DigitAboveTwo",
+            "short_code": "DAT",
+            "is_function": true,
+            "uuid": "f48dedb0-8658-43f4-a693-6457d020dd96"
+        },
+        {
+            "function_name": "random_digit_not_null",
+            "description": "Generates a digit that is not null.",
+            "short_name": "NotNullDigit",
+            "short_code": "NND",
+            "is_function": true,
+            "uuid": "ea3ddfdc-7852-4565-bc84-f36dc585da6b"
+        },
+        {
+            "function_name": "random_digit_or_empty",
+            "description": "Generates a digit or an empty string.",
+            "short_name": "DigitOrEmpty",
+            "short_code": "DOE",
+            "is_function": true,
+            "uuid": "91ece4a8-3512-4562-9ef0-d21d8f3ac170"
+        },
+        {
+            "function_name": "random_element",
+            "description": "Generates a random element from a given list.",
+            "short_name": "RandomElement",
+            "short_code": "RE",
+            "is_function": true,
+            "uuid": "f985fc33-4b1c-47af-b623-45db63c05a33"
+        },
+        {
+            "function_name": "random_elements",
+            "description": "Generates a list of random elements.",
+            "short_name": "RandomElements",
+            "short_code": "REs",
+            "is_function": true,
+            "uuid": "15212d92-12b5-4255-a233-9f9764ad8048"
+        },
+        {
+            "function_name": "random_letters",
+            "description": "Generates a string of random letters.",
+            "short_name": "RandomLetters",
+            "short_code": "RL",
+            "is_function": true,
+            "uuid": "ad07cf71-1803-4172-8b16-c1689158c1a8"
+        },
+        {
+            "function_name": "random_sample",
+            "description": "Generates a random sample from a given list.",
+            "short_name": "RandomSample",
+            "short_code": "RS",
+            "is_function": true,
+            "uuid": "5580c802-e2a9-45ae-938c-bf7183d30829"
+        },
+        {
+            "function_name": "rgb_css_color",
+            "description": "Generates a random RGB color string for CSS.",
+            "short_name": "CssColorRGB",
+            "short_code": "CCRGB",
+            "is_function": true,
+            "uuid": "14da45a1-11b5-4fcc-9d38-0a6ff08085a3"
+        },
+        {
+            "function_name": "ric",
+            "description": "Generates a random international classification code.",
+            "short_name": "RandomIC",
+            "short_code": "RIC",
+            "is_function": true,
+            "uuid": "cef29e06-0771-4bdb-99ce-710ff2c5a9b7"
+        },
+        {
+            "function_name": "ripe_id",
+            "description": "Generates a random RIPE Network Coordination Centre ID.",
+            "short_name": "RipeID",
+            "short_code": "RID",
+            "is_function": true,
+            "uuid": "463cfcb6-f34c-4822-b97b-a9b15853e7be"
+        },
+        {
+            "function_name": "safe_hex_color",
+            "description": "Generates a safe hexadecimal color string.",
+            "short_name": "HexColor",
+            "short_code": "YILK",
+            "is_function": true,
+            "uuid": "f26c2998-4c8d-4321-b189-d9124e040440"
+        },
+        {
+            "function_name": "sbn9",
+            "description": "Generates a random 9-digit ISBN code.",
+            "short_name": "ISBN9",
+            "short_code": "I9",
+            "is_function": true,
+            "uuid": "5ca2411a-e0d6-44fb-9bd2-daa6033b4570"
+        },
+        {
+            "function_name": "seed_locale",
+            "description": "Sets the locale for generating data.",
+            "short_name": "LocaleSet",
+            "short_code": "LS",
+            "is_function": true,
+            "uuid": "53ce61e0-dada-4d31-8b74-6f54339e2e24"
+        },
+        {
+            "function_name": "set_arguments",
+            "description": "Sets the arguments for generating data.",
+            "short_name": "ArgumentsSet",
+            "short_code": "AS",
+            "is_function": true,
+            "uuid": "0b6bac16-4f51-4e6a-9b9e-837d4a137965"
+        },
+        {
+            "function_name": "sha1",
+            "description": "Generates a random SHA1 hash.",
+            "short_name": "SHA1Hash",
+            "short_code": "S1H",
+            "is_function": true,
+            "uuid": "8611023d-3244-4e07-9325-2d801696dcd0"
+        },
+        {
+            "function_name": "sha256",
+            "description": "Generates a random SHA256 hash.",
+            "short_name": "SHA256Hash",
+            "short_code": "S256H",
+            "is_function": true,
+            "uuid": "e6064b65-2995-4ea2-acf9-946bd5a51152"
+        },
+        {
+            "function_name": "swift8",
+            "description": "Generates a random 8-character SWIFT code.",
+            "short_name": "SWIFT8",
+            "short_code": "S8",
+            "is_function": true,
+            "uuid": "8d63ed1a-00aa-4cca-a8b0-f0ff38291419"
+        },
+        {
+            "function_name": "tar",
+            "description": "Generates a random tarball file.",
+            "short_name": "TarFile",
+            "short_code": "TF",
+            "is_function": true,
+            "uuid": "7ec32393-9560-4698-8967-99e3fc790541"
+        },
+        {
+            "function_name": "texts",
+            "description": "Generates a list of random text strings.",
+            "short_name": "Texts",
+            "short_code": "Tx",
+            "is_function": true,
+            "uuid": "51a7d919-df3d-4393-b519-b6d01e96925b"
+        },
+        {
+            "function_name": "time_object",
+            "description": "Generates a random time object.",
+            "short_name": "TimeObject",
+            "short_code": "TO",
+            "is_function": true,
+            "uuid": "1f6fc6ce-7a1e-4c66-9118-6dd9d6ec2ec8"
+        },
+        {
+            "function_name": "time_series",
+            "description": "Generates a random time series data.",
+            "short_name": "TimeSeries",
+            "short_code": "TS",
+            "is_function": true,
+            "uuid": "011551d4-2487-4647-b725-3decad8a655c"
+        },
+        {
+            "function_name": "uri",
+            "description": "Generates a random URI.",
+            "short_name": "URI",
+            "short_code": "U",
+            "is_function": true,
+            "uuid": "1547bba0-5069-4a8f-bc5e-f6635bfe0b1d"
+        },
+        {
+            "function_name": "uri_extension",
+            "description": "Generates a random URI extension.",
+            "short_name": "URIExtension",
+            "short_code": "UE",
+            "is_function": true,
+            "uuid": "46c99552-e3f4-4321-aae4-c33c5bdededa"
+        },
+        {
+            "function_name": "user_name",
+            "description": "Generates a random username.",
+            "short_name": "UserName",
+            "short_code": "UN",
+            "is_function": true,
+            "uuid": "1788103c-8a98-4ce0-88cd-fba28da649d1"
+        },
+        {
+            "function_name": "vehicle_make_model",
+            "description": "Generates a random vehicle make and model.",
+            "short_name": "VehicleMakeModel",
+            "short_code": "VMM",
+            "is_function": true,
+            "uuid": "aa02dd4c-ad43-4d0b-8cc9-e14ce3881fdf"
+        },
+        {
+            "function_name": "vehicle_year_make_model",
+            "description": "Generates a random vehicle year, make and model.",
+            "short_name": "VehicleYearMakeModel",
+            "short_code": "VYMM",
+            "is_function": true,
+            "uuid": "d05c7b5c-70d5-4207-bf93-1ae453447231"
+        },
+        {
+            "function_name": "vehicle_year_make_model_cat",
+            "description": "Generates a random vehicle year, make, model and category.",
+            "short_name": "VehicleYearMakeModelCat",
+            "short_code": "VYMMC",
+            "is_function": true,
+            "uuid": "a0c4b07c-c34b-4f88-9eb8-63729ef7b1b3"
+        },
+        {
+            "function_name": "words",
+            "description": "Generates a list of random words.",
+            "short_name": "Words",
+            "short_code": "W",
+            "is_function": true,
+            "uuid": "13b37d11-d327-4b6c-8b86-a3b5bfa6b31e"
+        },
+        {
+            "function_name": "xml",
+            "description": "Generates a random XML document.",
+            "short_name": "XML",
+            "short_code": "X",
+            "is_function": true,
+            "uuid": "00955196-6b71-4f33-8d89-413e65fc1f81"
+        },
+        {
+            "function_name": "zipcode_in_state",
+            "description": "Generates a random zip code in a given state.",
+            "short_name": "ZipInState",
+            "short_code": "ZS",
+            "is_function": true,
+            "uuid": "5ec3eaf2-4ef8-4556-bc56-b8b521e3eb11"
+        },
+        {
+            "function_name": "list",
+            "is_function": false,
+            "description": "This function generates a random list.",
+            "short_name": "List",
+            "short_code": "LST",
+            "uuid": "aaa7deb6-a33b-4e59-9ce1-6aec937ab7df"
+        },
+        {
+            "function_name": "integer",
+            "is_function": true,
+            "description": "standart type data",
+            "short_name": "UINT",
+            "short_code": "UINT",
+            "uuid": "32c3cfbc-ed97-4a14-bebb-0311c1c37771"
+        },
+        {
+            "function_name": "number",
+            "is_function": false,
+            "description": "standart type data",
+            "short_name": "UNUMBER",
+            "short_code": "UNUMBER",
+            "uuid": "e7083c46-1e83-488b-b4a4-c652e9272716"
+        },
+        {
+            "function_name": "string",
+            "is_function": false,
+            "description": "standart type data",
+            "short_name": "USTRING",
+            "short_code": "USTRING",
+            "uuid": "9b4ea6c6-cb8a-4275-a234-37ad0cbab0bf"
+        },
+        {
+            "function_name": "bool",
+            "is_function": false,
+            "description": "standart type data",
+            "short_name": "UBOOL",
+            "short_code": "UBOOL",
+            "uuid": "16dc002f-c5e3-4ec8-805e-c0a00db7b640"
+        },
+        {
+            "function_name": "array",
+            "is_function": false,
+            "description": "standart type data",
+            "short_name": "Array",
+            "short_code": "ARRAY",
+            "uuid": "2796464c-be33-4e5a-a465-0f18587e16d7"
+        },
+        {
+            "function_name": "object",
+            "is_function": false,
+            "description": "standart type data",
+            "short_name": "OBJECT",
+            "short_code": "OBJ",
+            "uuid": "deaf9129-8b6f-44f1-ae74-8b8ac77ebcf2"
+        }
+    ]
+}

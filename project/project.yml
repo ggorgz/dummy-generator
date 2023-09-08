@@ -1,0 +1,6 @@
+packages:
+  - name: bot
+    functions:
+      - name: build
+        runtime: python:3.11
+        web: true

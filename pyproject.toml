@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "dofunctions"
+version = "0.1.0"
+description = ""
+authors = ["flyingdutchman <rede@asklora.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker-marketdata = "^0.4"
+faker-vehicle = "^0.2.0"
+faker-music = "^0.4"
+faker = "^19.5.0"
+pydantic = "^2.3.0"
+pydantic-settings = "^2.0.3"
+supabase = "^1.0.4"
+
+
+[tool.poetry.group.dev.dependencies]
+django = "^4.2.5"
+psycopg2-binary = "^2.9.7"
+
+
+[tool.poetry.group.misc.dependencies]
+open-interpreter = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
