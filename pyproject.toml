@@ -24,6 +24,14 @@ psycopg2-binary = "^2.9.7"
 [tool.poetry.group.misc.dependencies]
 open-interpreter = "^0.1.1"
 
+
+[tool.poetry.group.test.dependencies]
+
+
+[tool.poetry.group.linting.dependencies]
+black = "^23.9.1"
+ruff = "^0.0.290"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
