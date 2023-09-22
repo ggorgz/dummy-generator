@@ -15,29 +15,27 @@ def build_schema(properties: dict) -> dict:
 
     for key, value in properties.items():
         # if type is not defined
-        if not value["type"]:
+        if not (data_type := value.get("type")):
             data[key] = None
             continue
 
         # if type is object, run recursively
-        if value["type"] == "object" and "properties" in value:
+        if data_type == "object" and "properties" in value:
             data[key] = build_schema(value["properties"])
             continue
 
-        data[key] = generate(value["type"])
+        # if type is of faker type
+        if hasattr(fake, data_type):
+            func = getattr(fake, data_type)
+            data[key] = func()
+            continue
+
+        # if type is custom defined
+        if data_type in ["string", "number", "boolean"]:
+            data[key] = value.get("value")
+            continue
+
+        # otherwise use default value, or None
+        data[key] = value.get("default")
 
     return data
-
-
-def generate(data_type: str) -> any | None:
-    if hasattr(fake, data_type):
-        func = getattr(fake, data_type)
-        return func()
-
-    match data_type:
-        case "string" | "str":
-            return fake.pystr()
-        case "number" | "int":
-            return fake.pyint()
-        case "boolean" | "bool":
-            return fake.pybool()
