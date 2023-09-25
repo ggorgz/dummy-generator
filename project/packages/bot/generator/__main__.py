@@ -15,7 +15,7 @@ def create_schema(
     """
     create a schema from the prompt provided. the returned of this function
     is swagger schema like.the type is standart type for swagger. but if faked is True
-    then the type is faker type. the faker type is a string that represent the faker_func_name.
+    then the type is one of faker_func_name.
     """
 
 
