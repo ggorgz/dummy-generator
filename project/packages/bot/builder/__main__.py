@@ -1,4 +1,4 @@
-from .builder import build_schema
+from builder import build_schema
 
 
 def main(event, context):

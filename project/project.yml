@@ -4,3 +4,6 @@ packages:
       - name: builder
         runtime: python:3.11
         web: true
+      - name: generator
+        runtime: python:3.11
+        web: true
